@@ -1,0 +1,283 @@
+--[[warn(spawn(function(return(game:GetService("MotherFucker"))))
+      return
+      return
+      return
+      return
+      continue
+      break
+      debug(spawn(function()
+        return
+      end)
+    end)
+]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local debugreturn = game.CoreGui:FindFirstChild("hydroxyl")
+if debugreturn then
+	debugreturn:Destroy()
+end
+
+local Converted = {
+	["_hydroxyl"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_TextButton"] = Instance.new("TextButton");
+	["_shadowHolder"] = Instance.new("Frame");
+	["_umbraShadow"] = Instance.new("ImageLabel");
+	["_penumbraShadow"] = Instance.new("ImageLabel");
+	["_ambientShadow"] = Instance.new("ImageLabel");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_InfoHover"] = Instance.new("LocalScript");
+	["_RunCode"] = Instance.new("LocalScript");
+	["_ButtonTip"] = Instance.new("TextLabel");
+	["_ButtonTip2"] = Instance.new("TextLabel");
+	["_clicking"] = Instance.new("Sound");
+	["_hovers"] = Instance.new("Sound");
+	["_leaves"] = Instance.new("Sound");
+	["_SoundSystem"] = Instance.new("LocalScript");
+}
+
+Converted["_hydroxyl"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_hydroxyl"].Name = "hydroxyl"
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BackgroundTransparency = 1
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0.437999994, 0, 0.814523876, 0)
+Converted["_Frame"].Size = UDim2.new(0.123456791, 0, 0.0476190485, 0)
+Converted["_Frame"].Parent = Converted["_hydroxyl"]
+
+Converted["_TextButton"].Font = Enum.Font.Ubuntu
+Converted["_TextButton"].Text = "Gens Teleporter"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(55.000004321336746, 55.000004321336746, 55.000004321336746)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0, 0, 1, 0)
+Converted["_TextButton"].Size = UDim2.new(1, 0, -1, 0)
+Converted["_TextButton"].Parent = Converted["_Frame"]
+
+Converted["_shadowHolder"].BackgroundTransparency = 1
+Converted["_shadowHolder"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_shadowHolder"].ZIndex = 0
+Converted["_shadowHolder"].Name = "shadowHolder"
+Converted["_shadowHolder"].Parent = Converted["_TextButton"]
+
+Converted["_umbraShadow"].Image = "rbxassetid://1316045217"
+Converted["_umbraShadow"].ImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_umbraShadow"].ImageTransparency = 0.8600000143051147
+Converted["_umbraShadow"].ScaleType = Enum.ScaleType.Slice
+Converted["_umbraShadow"].SliceCenter = Rect.new(10, 10, 118, 118)
+Converted["_umbraShadow"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_umbraShadow"].BackgroundTransparency = 1
+Converted["_umbraShadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_umbraShadow"].Size = UDim2.new(1.01999998, 0, 1.06666672, 0)
+Converted["_umbraShadow"].ZIndex = 0
+Converted["_umbraShadow"].Name = "umbraShadow"
+Converted["_umbraShadow"].Parent = Converted["_shadowHolder"]
+
+Converted["_penumbraShadow"].Image = "rbxassetid://1316045217"
+Converted["_penumbraShadow"].ImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_penumbraShadow"].ImageTransparency = 0.8799999952316284
+Converted["_penumbraShadow"].ScaleType = Enum.ScaleType.Slice
+Converted["_penumbraShadow"].SliceCenter = Rect.new(10, 10, 118, 118)
+Converted["_penumbraShadow"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_penumbraShadow"].BackgroundTransparency = 1
+Converted["_penumbraShadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_penumbraShadow"].Size = UDim2.new(1.01999998, 0, 1.06666672, 0)
+Converted["_penumbraShadow"].ZIndex = 0
+Converted["_penumbraShadow"].Name = "penumbraShadow"
+Converted["_penumbraShadow"].Parent = Converted["_shadowHolder"]
+
+Converted["_ambientShadow"].Image = "rbxassetid://1316045217"
+Converted["_ambientShadow"].ImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ambientShadow"].ImageTransparency = 0.8799999952316284
+Converted["_ambientShadow"].ScaleType = Enum.ScaleType.Slice
+Converted["_ambientShadow"].SliceCenter = Rect.new(10, 10, 118, 118)
+Converted["_ambientShadow"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ambientShadow"].BackgroundTransparency = 1
+Converted["_ambientShadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_ambientShadow"].Size = UDim2.new(1.01999998, 0, 1.06666672, 0)
+Converted["_ambientShadow"].ZIndex = 0
+Converted["_ambientShadow"].Name = "ambientShadow"
+Converted["_ambientShadow"].Parent = Converted["_shadowHolder"]
+
+Converted["_UIStroke"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke"].Thickness = 2
+Converted["_UIStroke"].Parent = Converted["_TextButton"]
+
+Converted["_ButtonTip"].Font = Enum.Font.Ubuntu
+Converted["_ButtonTip"].Text = "Teleport to each generator one by one"
+Converted["_ButtonTip"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ButtonTip"].TextScaled = true
+Converted["_ButtonTip"].TextSize = 14
+Converted["_ButtonTip"].TextWrapped = true
+Converted["_ButtonTip"].BackgroundColor3 = Color3.fromRGB(55.000004321336746, 55.000004321336746, 55.000004321336746)
+Converted["_ButtonTip"].BackgroundTransparency = 0.699999988079071
+Converted["_ButtonTip"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ButtonTip"].BorderSizePixel = 0
+Converted["_ButtonTip"].Position = UDim2.new(-0.860000014, 0, -1, 0)
+Converted["_ButtonTip"].Size = UDim2.new(2.70000005, 0, 0.666666687, 0)
+Converted["_ButtonTip"].Visible = false
+Converted["_ButtonTip"].Name = "ButtonTip"
+Converted["_ButtonTip"].Parent = Converted["_Frame"]
+
+Converted["_ButtonTip2"].Font = Enum.Font.Ubuntu
+Converted["_ButtonTip2"].Text = "Press Q if you are at the computer"
+Converted["_ButtonTip2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ButtonTip2"].TextScaled = true
+Converted["_ButtonTip2"].TextSize = 14
+Converted["_ButtonTip2"].TextWrapped = true
+Converted["_ButtonTip2"].BackgroundColor3 = Color3.fromRGB(55.000004321336746, 55.000004321336746, 55.000004321336746)
+Converted["_ButtonTip2"].BackgroundTransparency = 0.699999988079071
+Converted["_ButtonTip2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ButtonTip2"].BorderSizePixel = 0
+Converted["_ButtonTip2"].Position = UDim2.new(-0.860000014, 0, -2, 0)
+Converted["_ButtonTip2"].Size = UDim2.new(2.70000005, 0, 0.666666687, 0)
+Converted["_ButtonTip2"].Visible = false
+Converted["_ButtonTip2"].Name = "ButtonTip2"
+Converted["_ButtonTip2"].Parent = Converted["_Frame"]
+
+Converted["_clicking"].SoundId = "rbxassetid://3848738002"
+Converted["_clicking"].Name = "clicking"
+Converted["_clicking"].Parent = Converted["_hydroxyl"]
+
+Converted["_hovers"].SoundId = "rbxassetid://501833386"
+Converted["_hovers"].Name = "hovers"
+Converted["_hovers"].Parent = Converted["_hydroxyl"]
+
+Converted["_leaves"].SoundId = "rbxassetid://7081901750"
+Converted["_leaves"].Name = "leaves"
+Converted["_leaves"].Parent = Converted["_hydroxyl"]
+
+Converted["_hydroxyl"].Parent = game.CoreGui
+
+local fake_module_scripts = {}
+
+local function NYUSAEN_fake_script()
+	local script = Instance.new("LocalScript")
+	script.Name = "InfoHover"
+	script.Parent = Converted["_TextButton"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.Parent.ButtonTip.Visible = true
+		script.Parent.Parent.ButtonTip2.Visible = true
+	end)
+
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.Parent.ButtonTip.Visible = false
+		script.Parent.Parent.ButtonTip2.Visible = false
+	end)
+
+end
+
+local function VHNGI_fake_script()
+	local script = Instance.new("LocalScript")
+	script.Name = "RunCode"
+	script.Parent = Converted["_TextButton"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("UserInputService").InputBegan:Connect(function(input)
+			if input.KeyCode == Enum.KeyCode.Q then
+				local CH = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+				for _, y in pairs(workspace.MAP.GENS:GetDescendants()) do
+					if y:IsA('BoolValue') and y.Name == "On" and y.Value == false then
+						CH.CFrame = y.Parent.Prompt1.CFrame
+					end
+				end
+			end
+		end)
+	end)
+end
+
+local function TESUEL_fake_script()
+	local script = Instance.new("LocalScript")
+	script.Name = "SoundSystem"
+	script.Parent = Converted["_hydroxyl"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local function playSound(sound)
+		script.Parent[sound]:Play()
+	end
+
+	for _, v in pairs(script.Parent:GetDescendants()) do
+		if v:IsA('TextButton') or v:IsA('ImageButton') then
+			v.MouseEnter:Connect(function()
+				playSound("hovers")
+			end)
+
+			v.MouseLeave:Connect(function()
+				playSound("leaves")
+			end)
+
+			v.MouseButton1Click:Connect(function()
+				playSound("clicking")
+			end)
+		end
+	end
+end
+
+coroutine.wrap(NYUSAEN_fake_script)()
+coroutine.wrap(VHNGI_fake_script)()
+coroutine.wrap(TESUEL_fake_script)()
