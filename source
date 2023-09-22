@@ -1,14 +1,15 @@
---[[warn(spawn(function(return(game:GetService("MotherFucker"))))
-      return
-      return
-      return
-      return
-      continue
-      break
-      debug(spawn(function()
-        return
-      end)
-    end)
+--[[
+	warn(spawn(function(return(game:GetService("MotherFucker"))))
+		return
+		return
+		return
+		return
+		continue
+		break
+		debug(spawn(function()
+			return
+		end)
+	end)
 ]]
 
 
